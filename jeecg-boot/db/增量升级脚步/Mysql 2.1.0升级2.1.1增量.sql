@@ -77,7 +77,7 @@ INSERT INTO `sys_dict_item` (`id`, `dict_id`, `item_text`, `item_value`, `descri
 INSERT INTO `sys_permission` (`id`, `parent_id`, `name`, `url`, `component`, `is_route`, `component_name`, `redirect`, `menu_type`, `perms`, `perms_type`, `sort_no`, `always_show`, `icon`, `is_leaf`, `keep_alive`, `hidden`, `description`, `create_by`, `create_time`, `update_by`, `update_time`, `del_flag`, `rule_flag`, `status`, `internal_or_external`) VALUES ('1174590283938041857', 'd7d6e2e4e2934f2c9385a623fd98c6f3', '通讯录', '/isystem/addressList', 'system/AddressList', '1', NULL, NULL, '1', NULL, '1', '3', '0', NULL, '1', '0', '0', NULL, 'admin', '2019-09-19 15:45:21', NULL, NULL, '0', '0', '1', '0');
 
 
-DELETE FROM sys_dict_item WHERE dict_id = "1174509082208395266";
+DELETE FROM sys_dict_item WHERE dict_id = '1174509082208395266';
 INSERT INTO `sys_dict_item` (`id`, `dict_id`, `item_text`, `item_value`, `description`, `sort_order`, `status`, `create_by`, `create_time`, `update_by`, `update_time`) VALUES ('1174509601047994369', '1174509082208395266', '员级', '1', '', '1', '1', 'admin', '2019-09-19 10:24:45', 'admin', '2019-09-23 11:46:39');
 INSERT INTO `sys_dict_item` (`id`, `dict_id`, `item_text`, `item_value`, `description`, `sort_order`, `status`, `create_by`, `create_time`, `update_by`, `update_time`) VALUES ('1174509667297026049', '1174509082208395266', '助级', '2', '', '2', '1', 'admin', '2019-09-19 10:25:01', 'admin', '2019-09-23 11:46:47');
 INSERT INTO `sys_dict_item` (`id`, `dict_id`, `item_text`, `item_value`, `description`, `sort_order`, `status`, `create_by`, `create_time`, `update_by`, `update_time`) VALUES ('1174509713568587777', '1174509082208395266', '中级', '3', '', '3', '1', 'admin', '2019-09-19 10:25:12', 'admin', '2019-09-23 11:46:56');
